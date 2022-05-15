@@ -1,4 +1,7 @@
-
+/**
+ * aqui estaremos creando lo que es la conecion a la base de dotos 
+ * creamos un clouster en mongodb Atlas
+ */
 
 const mongoose = require('mongoose')
 const DB_URI = `mongodb+srv://sagenav:wonderful1177@cluster0.u3t61.mongodb.net/test`

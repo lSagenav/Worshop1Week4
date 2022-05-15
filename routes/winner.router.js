@@ -1,3 +1,8 @@
+/**
+ * desde aqui estaremos creando la logica para poder elegir y mostar el ganador entre los 3 jugadores
+ * con los que se inicio el juego nuevo y en el json por el navegador se mostrara el ganador con sus
+ * datos respectivos
+ */
 const express = require('express');
 const CreateGame = require('../models/createGame.model');
 

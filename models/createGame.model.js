@@ -2,7 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const { uuid } = require('../utils/uuidRandom');
 
-
+/**
+ * desde aqui estaremos con la logica para crear un juego nuevo 
+ * estaremos creando el esquema para el juego nuevo
+ */
 const createGameSchema = new Schema({
     id: {
       type: String,

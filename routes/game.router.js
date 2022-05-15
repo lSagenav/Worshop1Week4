@@ -1,3 +1,8 @@
+/**
+ * desde aqui estaremos haciendo el renderisado de la vista del nuevo juego y agregando un nuevo
+ * juego a la base de datos que se ha implementado
+ * guardaremos los datos del nuevo juego en a bd
+ */
 const express = require('express');
 const CreateGame = require('../models/createGame.model');
 const { uuid } = require('../utils/uuidRandom');

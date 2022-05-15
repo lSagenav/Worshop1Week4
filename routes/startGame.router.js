@@ -1,3 +1,8 @@
+/**
+ * desde qui estaremos creando lo que es el nuevo juego con los 3 jugadores 
+ * y le estaremos dando los datos pertinentes que se le pediran en las plantilla
+ * desde el navegador 
+ */
 const express = require('express');
 const CreateGame = require('../models/createGame.model');
 

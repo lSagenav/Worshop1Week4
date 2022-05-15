@@ -1,3 +1,8 @@
+/**
+ * desde aqui endremos el control de la ejecucion del proyecto, aqui daremos las indicaciones de 
+ * como se ira ejecutado el proyecto, a que bd se conectara y porque puerto se ejecutara el proyecto
+ *  
+ */
 const express = require("express");
 
 const cors = require("cors");

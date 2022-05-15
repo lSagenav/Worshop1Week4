@@ -1,3 +1,7 @@
+/**
+ * aqui creamos el random, el cual lo usaremos para crear las id de los jugadores
+ * 
+ */
 const { v4: uuidv4 } = require('uuid');
 
 /**
