@@ -26,7 +26,7 @@ app.set('view engine', 'pug');
 app.use(express.urlencoded({extended:true}));
 
 
-app.get('/', (request, response)=>response.send("si funciono la app"));
+app.get('/', (request, response)=>response.send("Bienvenidos Al Juego De Dados "));
 routerApi(app);
 
 app.listen(3000, ()=>{console.log('conectado')});
